@@ -52,8 +52,8 @@ class RunTimmomatic():
             command_line += 'ILLUMINACLIP:' + ILLUMINACLIP
             print('Run Trimmomatic:\n' + command_line)
             a, b = commands.getstatusoutput("java -jar /home/djiang/bio/trimmomatic/Trimmomatic-0.39/trimmomatic-0.39.jar -h")
-            print('Return:'+a)
-            print('Output:' + b)
+            print('Return:', a)
+            print('Output:', b)
 trimm = RunTimmomatic("Trimmomatic.xml")
 trimm.runFromXML()
             
