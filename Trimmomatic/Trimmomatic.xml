@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This xml specify the arguments for Timmomatic-->
+<Trimmomatic_Records>
+ <Arguments>
+	 <type>PE</type>
+	 <input>S1.R1.fq.gz</input>
+	 <input>S1.R2.fq.gz</input>
+	 <output>S1.pe.R1.fastq</output>
+	 <output>S1.unpe.R1.fastq</output>
+	 <output>S1.pe.R2.fasta</output>
+	 <output>S1.unpe.R2.fastq</output>
+	 <LEADING>3</LEADING>
+	 <TRAILING>3</TRAILING>
+	 <SLIDINGWINDOW>5:20</SLIDINGWINDOW>
+	 <MINLEN>50</MINLEN>
+	 <phred>phred33</phred>
+	 <ILLUMINACLIP>TruSeq3-PE.fa:2:30:10</ILLUMINACLIP>
+ </Arguments>
+  <Arguments>
+	 <type>PE</type>
+	 <input>S1.R1.fq.gz</input>
+	 <input>S1.R2.fq.gz</input>
+	 <output>S1.pe.R1.fastq</output>
+	 <output>S1.unpe.R1.fastq</output>
+	 <output>S1.pe.R2.fasta</output>
+	 <output>S1.unpe.R2.fastq</output>
+	 <LEADING>3</LEADING>
+	 <TRAILING>3</TRAILING>
+	 <SLIDINGWINDOW>5:20</SLIDINGWINDOW>
+	 <MINLEN>50</MINLEN>
+	 <phred>phred33</phred>
+	 <ILLUMINACLIP>TruSeq3-PE.fa:2:30:10</ILLUMINACLIP>
+ </Arguments>
+</Trimmomatic_Records>
